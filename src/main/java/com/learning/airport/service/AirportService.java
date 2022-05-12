@@ -1,4 +1,4 @@
-package com.learning.airport;
+package com.learning.airport.service;
 
 import com.learning.airport.Repository.AirportRepository;
 import com.learning.airport.Repository.PassengerRepository;

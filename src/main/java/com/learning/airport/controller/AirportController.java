@@ -1,14 +1,10 @@
 package com.learning.airport.controller;
 
-import com.learning.airport.AirportService;
-import com.learning.airport.Repository.AirportRepository;
-import com.learning.airport.Repository.PassengerRepository;
+import com.learning.airport.service.AirportService;
 import com.learning.airport.model.Airport;
 import com.learning.airport.model.Passenger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Optional;
 
 @RestController
 @RequestMapping("airports")
